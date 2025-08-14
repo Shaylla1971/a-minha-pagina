@@ -1,0 +1,44 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo do corpo da página */
+body {
+    font-family: Arial, sans-serif;
+   background-image: radial-gradient(circle, #4e4d12, #114234);
+
+    color: #d63939;
+    line-height: 1.6;
+}
+
+/* Cabeçalhos e links */
+h1, h2, h3, a {
+    color: #0077cc;
+    text-decoration: underline;
+}
+
+/* Container centralizado */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Botão estilizado */
+.botao {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #148600;
+    color: rgb(255, 3, 3);
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+/* Efeito hover no botão */
+.botao:hover {
+    background-color: #005fa3;
+}
+
